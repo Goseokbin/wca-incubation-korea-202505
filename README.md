@@ -13,7 +13,7 @@ Last updated: Dec 2nd, 2024
 - [Download Java for MacOS - x86](https://download.oracle.com/java/21/latest/jdk-21_macos-x64_bin.tar.gz)
 - [Download Java for Windows](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.zip)
 
-로컬에 위의 압축파을일 다운 받아 추출하세요.
+로컬에 위의 압축파일을 다운 받아 추출하세요.
 
 - 자바 설치가 잘 되었는지 아래 명령어를 통해 확인 하세요:
 ```bash
@@ -47,7 +47,7 @@ java --version
   
   ![image](./images/search_env_var_windows.png)
 
-  - 환경변수를 이용하여 JAVA_HOME을 설정하고 (JAVA_HOME 환경변수가 없으면 new를 클릭하여 새로 생성하고, 있다면 JAVA_HOME을 수정해 주세요), 앞 스텝에서 설치한 java path를 값으로 넣어 줍니다.:
+  - 환경변수를 이용하여 JAVA_HOME을 설정하고 (JAVA_HOME 환경변수가 없으면 new를 클릭하여 새로 생성하고, 있다면 JAVA_HOME을 수정해 주세요), 앞 스텝에서 설치한 java path를 값으로 넣어 줍니다:
     
   ![image](./images/create_java_home.png)
 
@@ -56,7 +56,7 @@ java --version
     ```
   ![image](./images/create_java_home1.png)
     
-  - 환경 변수를 이용하여 PATH에 JAVA를 추가합니다.:
+  - 환경 변수를 이용하여 PATH에 JAVA를 추가합니다:
  
   ![image](./images/create_java_home2.png)
  
@@ -76,7 +76,7 @@ java --version
       ```bash
       MAVEN_HOME= <path-to-folder>\maven\apache-maven-3.9.9-bin\apache-maven-3.9.9
       ```
-    - 환경변수에서 PATH에 Maven 을 추가해 주세요.: 
+    - 환경변수에서 PATH에 Maven 을 추가해 주세요: 
       ```bash
       <path-to-folder>\maven\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
       ```
