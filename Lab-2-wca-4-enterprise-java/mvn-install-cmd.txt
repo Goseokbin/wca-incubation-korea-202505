@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=C:\Training\CE\wca-incubation-korea-202505\Lab-2-wca-4-enterprise-java\modresorts-twas-j8\was_dependency\was_public.jar -DpomFile=C:\Training\CE\wca-incubation-korea-202505\Lab-2-wca-4-enterprise-java\modresorts-twas-j8\was_dependency\was_public-9.0.0.pom
